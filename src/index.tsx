@@ -7,7 +7,7 @@ import { store } from './services/index';
 
 ReactDOM.render(
   <Provider store={store}>
-    <Router>
+    <Router basename="/react-burger-eng">
       <App />
     </Router>
   </Provider>,
