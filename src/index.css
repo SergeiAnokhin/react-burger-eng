@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Iceland";
+  font-weight: 500;
+  src: url(./fonts/Iceland-Regular.ttf) format("ttf");
+}
+@font-face {
+  font-family: "Jet Brains Mono";
+  font-weight: 400;
+  src: url(./fonts/JetBrainsMono-Regular.ttf) format("ttf");
+}
+@font-face {
+  font-family: "Jet Brains Mono";
+  font-weight: 900;
+  src: url(./fonts/JetBrainsMono-Bold.ttf) format("ttf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #131316;
+}

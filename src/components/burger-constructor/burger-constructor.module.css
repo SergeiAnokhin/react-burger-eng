@@ -1,0 +1,53 @@
+.section {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text {
+    font-family: 'Jet Brains Mono';
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.1;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.bun {
+    display: flex;
+    flex-direction: column;
+    margin-left: 48px;
+}
+
+.elements {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-height: calc(100vh - 535px);
+    overflow-y: auto;
+}
+
+.elements::-webkit-scrollbar {
+    width: 8px;
+}
+
+.elements::-webkit-scrollbar-track {
+    background-color: #2F2F37;
+    /* margin-top: 100px;
+    margin-bottom: 80px; */
+}
+
+.elements::-webkit-scrollbar-thumb {
+    background-color: #8585AD;
+}
+
+.info {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 40px;
+}

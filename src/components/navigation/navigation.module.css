@@ -1,0 +1,26 @@
+.nav {
+    justify-self: start;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.item {
+    list-style-type: none;
+}
+
+.link {
+    display: flex;
+    color: #F2F2F3;
+    text-decoration: none;
+    transition: opacity .2s linear;
+}
+
+.link:hover {
+    opacity: .8;
+}

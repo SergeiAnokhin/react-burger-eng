@@ -1,0 +1,116 @@
+@keyframes visible {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.wrapper {
+  animation: visible 0.3s linear;
+  display: flex;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.profileMenu {
+  width: 320px;
+  margin-top: 140px;
+  margin-right: 60px;
+  padding: 0;
+}
+
+.menuItems {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menuItem {
+  padding: 17px 0;
+  list-style: none;
+  font-family: 'Jet Brains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.menuLink {
+  text-decoration: none;
+  color: #8585ad;
+  transition: opacity 0.2s linear;
+}
+
+.menuLink:hover {
+  opacity: 0.8;
+}
+
+.menuBtn {
+  padding: 0;
+  font-family: 'Jet Brains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  background-color: transparent;
+  color: #8585ad;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s linear;
+}
+
+.menuBtn:hover {
+  opacity: 0.8;
+}
+
+.menuText {
+  font-family: 'Jet Brains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8585ad;
+  opacity: 0.4;
+  margin-top: 80px;
+}
+
+.profileContent {
+  width: 844px;
+}
+
+.title {
+  font-family: 'Jet Brains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #f2f2f3;
+}
+
+.text {
+  font-family: 'Jet Brains Mono';
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #8585ad;
+}
+
+.activeLink {
+  color: #f2f2f3;
+}
+
+.historyTitle {
+  animation: visible 0.3s linear;
+}
+
+.exitTitle {
+  animation: visible 0.3s linear;
+}

@@ -1,0 +1,36 @@
+@keyframes visible {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 140px;
+  width: 100%;
+  max-width: 480px;
+  gap: 24px;
+  animation: visible 0.3s linear;
+}
+
+.form div div {
+  width: 480px;
+}
+
+.form button {
+  margin-top: 24px;
+}
+
+.form div div div {
+  margin-top: 0;
+  width: 24px;
+}
+
+.form:last-child button {
+  margin: 0;
+}

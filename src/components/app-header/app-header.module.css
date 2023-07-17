@@ -1,0 +1,35 @@
+.header {
+    background: #1C1C21;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    max-width: 1280px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1140px) {
+    .container {
+        grid-template-columns: 1.5fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 910px) {
+    .container {
+        grid-template-columns: 1.8fr 1fr 1fr;
+    }
+}
+

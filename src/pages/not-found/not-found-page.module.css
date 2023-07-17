@@ -1,0 +1,27 @@
+@keyframes visible { 
+    0% { 
+   opacity: 0; 
+    } 
+    100% {
+   opacity: 1;
+   }
+  }
+
+.wrapper {
+    animation: visible .3s linear;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 180px;
+}
+
+.title {
+    font-family: 'Jet Brains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #F2F2F3;
+}

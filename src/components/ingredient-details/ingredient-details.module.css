@@ -1,0 +1,40 @@
+.title {
+    font-family: 'Jet Brains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    color: #F2F2F3;
+}
+
+.items {
+    display: flex;
+    gap: 20px;
+}
+
+.item {
+    height: 50px;
+    color: #8585AD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    font-family: 'Jet Brains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.value {
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 24px;
+}

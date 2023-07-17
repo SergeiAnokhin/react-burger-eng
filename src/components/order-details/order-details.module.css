@@ -1,0 +1,34 @@
+.id {
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 144px;
+    line-height: 120px;
+}
+
+.title {
+    color: #F2F2F3;
+    font-family: 'Jet Brains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.status {
+    color: #F2F2F3;
+    font-family: 'Jet Brains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.wait {
+    color: #8585AD;
+    font-family: 'Jet Brains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}

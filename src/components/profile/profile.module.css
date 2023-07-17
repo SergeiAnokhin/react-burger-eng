@@ -1,0 +1,11 @@
+.link {
+    display: flex;
+    justify-self: end;
+    color: #F2F2F3;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+.link:hover {
+    opacity: .8;
+}

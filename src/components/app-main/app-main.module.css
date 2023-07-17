@@ -1,0 +1,17 @@
+@keyframes visible { 
+    0% { 
+   opacity: 0; 
+    } 
+    100% {
+   opacity: 1;
+   }
+  }
+
+.main {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    animation: visible .3s linear;
+}
