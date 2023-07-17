@@ -1,6 +1,6 @@
 # Stellar Burgers Project
 
-![Preview](./README_static/preview.png)
+![Preview](./README_static/preview.jpg)
 
 ## Description
 

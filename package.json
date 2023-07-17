@@ -2,9 +2,11 @@
   "name": "react-burger",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://sergeianokhin.github.io/react-burger-eng/",
   "dependencies": {
     "@types/history": "^5.0.0",
     "@ya.praktikum/react-developer-burger-ui-components": "^1.14.0",
+    "gh-pages": "^5.0.0",
     "nanoid": "^3.3.4",
     "react": "^16.8.6",
     "react-dnd": "^14.0.1",
@@ -25,7 +27,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint -c .eslintrc.js --ext .js,.jsx .",
-    "lint:fix": "npm run lint -- --fix"
+    "lint:fix": "npm run lint -- --fix",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "browserslist": {
     "production": [
